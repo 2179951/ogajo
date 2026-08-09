@@ -6,14 +6,13 @@
 .cabecalho {
     width: 100%;
     min-height: 150px;
-    background-color: brown;
     text-align: center;
     padding: 20px
 }
 
 .cabecalho a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .cabecalho a:hover {
@@ -31,7 +30,7 @@
 .conteudo {
     width: 50%;
     min-height: 650px;
-    background-color: yellow;
+    background-color: rgb(160, 162, 168);
     float: left;
     padding: 20px
 }
@@ -49,4 +48,12 @@ img {
     .conteudo {
         width: 80%;
     }
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    border-top: 3px solid #15046a;
 }
