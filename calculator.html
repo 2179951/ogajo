@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="calculator.css"> <!-- formatar os botões -->
+    <script src="calculator.js" defer></script>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+    <table border="1"> <!-- por os elementos dentro duma tabela para melhor organização -->
+        <tr>
+            <td><input id="op1"></td>
+            <td><input id="op2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"> <!-- ocupa as duas colunas da tabela -->
+                <button onclick="calcular(1)">× </button> <!--Aqui quero executar logo a -->
+                <button onclick="calcular(2)">+ </button> <!--funçao e passar um valor -->
+                <button onclick="calcular(3)">- </button> <!--para determinar o tipo de operação -->
+                <button onclick="calcular(4)">÷ </button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2 id="resultado"></h2>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
