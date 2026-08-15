@@ -1,7 +1,11 @@
-
 button {
-    width: 70px;      
-    height: 25px;      
-    border: none;
+    width: 147px;
+    height: 40px;
+    border: 1px solid #000000;
     cursor: pointer;
-}   
+    font-size: 20px;
+}
+
+input {
+    text-align: right;
+}
